@@ -14,7 +14,7 @@ import ru.yura.web.repositiry.RoleRepository;
 
 @Service
 public class RoleService {
-     final RoleRepository roleRepository;
+    final RoleRepository roleRepository;
 
     public RoleService(RoleRepository roleRepository) {
         this.roleRepository = roleRepository;
@@ -25,8 +25,9 @@ public class RoleService {
         roleRepository.save(role);
     }
 
-    public Role findById(String role) {
+    public Role findByRole(String role) {
         return roleRepository.findByRole(role);
     }
 
 }
+
