@@ -18,7 +18,47 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="youtube@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="youtube@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="youtube@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="youtube: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="youtube@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="youtube: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="youtube@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="youtube: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="youtube@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="youtube: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -26,9 +66,9 @@
       <list>
         <option value="Enum" />
         <option value="HTML File" />
-        <option value="Class" />
         <option value="JavaScript File" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -146,7 +186,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="root:youtube@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@286dd6e8" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@e7f397c" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -205,7 +245,7 @@
       <workItem from="1588498475618" duration="5269000" />
       <workItem from="1588509085891" duration="2841000" />
       <workItem from="1588532368049" duration="1017000" />
-      <workItem from="1588534989051" duration="2898000" />
+      <workItem from="1588534989051" duration="3650000" />
     </task>
     <task id="LOCAL-00001" summary="IsAlive and spouse">
       <created>1587018497920</created>
@@ -418,38 +458,38 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="719" y="177" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1588532693146" />
-    <state width="1397" height="184" key="GridCell.Tab.0.bottom" timestamp="1588537409123">
+    <state width="1397" height="184" key="GridCell.Tab.0.bottom" timestamp="1588538587967">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="184" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588537409123" />
-    <state width="1397" height="184" key="GridCell.Tab.0.center" timestamp="1588537409123">
+    <state width="1397" height="184" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588538587967" />
+    <state width="1397" height="184" key="GridCell.Tab.0.center" timestamp="1588538587966">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="184" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1588537409123" />
-    <state width="1397" height="184" key="GridCell.Tab.0.left" timestamp="1588537409122">
+    <state width="1397" height="184" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1588538587966" />
+    <state width="1397" height="184" key="GridCell.Tab.0.left" timestamp="1588538587966">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="184" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1588537409122" />
-    <state width="1397" height="184" key="GridCell.Tab.0.right" timestamp="1588537409123">
+    <state width="1397" height="184" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1588538587966" />
+    <state width="1397" height="184" key="GridCell.Tab.0.right" timestamp="1588538587966">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="184" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1588537409123" />
-    <state width="1397" height="184" key="GridCell.Tab.1.bottom" timestamp="1588537409123">
+    <state width="1397" height="184" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1588538587966" />
+    <state width="1397" height="184" key="GridCell.Tab.1.bottom" timestamp="1588538587967">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="184" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588537409123" />
-    <state width="1397" height="184" key="GridCell.Tab.1.center" timestamp="1588537409123">
+    <state width="1397" height="184" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588538587967" />
+    <state width="1397" height="184" key="GridCell.Tab.1.center" timestamp="1588538587967">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="184" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1588537409123" />
-    <state width="1397" height="184" key="GridCell.Tab.1.left" timestamp="1588537409123">
+    <state width="1397" height="184" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1588538587967" />
+    <state width="1397" height="184" key="GridCell.Tab.1.left" timestamp="1588538587967">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="184" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1588537409123" />
-    <state width="1397" height="184" key="GridCell.Tab.1.right" timestamp="1588537409123">
+    <state width="1397" height="184" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1588538587967" />
+    <state width="1397" height="184" key="GridCell.Tab.1.right" timestamp="1588538587967">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="184" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1588537409123" />
+    <state width="1397" height="184" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1588538587967" />
     <state width="1397" height="378" key="GridCell.Tab.2.bottom" timestamp="1588512790035">
       <screen x="0" y="0" width="1440" height="860" />
     </state>

@@ -13,27 +13,28 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Role;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import ru.yura.web.service.PersonService;
 import ru.yura.web.service.RoleService;
+
+import javax.annotation.PostConstruct;
 
 @SpringBootApplication
 @ComponentScan(basePackages = "ru")
 @EnableJpaRepositories(basePackages = "ru")
 @EntityScan(basePackages = "ru.yura")
 public class Application {
-    @Autowired
-    RoleService roleService;
-    @Autowired
-    PersonService personService;
+
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class);
-
-
-
-
     }
-
+    @Bean(initMethod = "init")
+    @PostConstruct
+    public TestDataInit initTestData() {
+        return new TestDataInit();
+    }
 }

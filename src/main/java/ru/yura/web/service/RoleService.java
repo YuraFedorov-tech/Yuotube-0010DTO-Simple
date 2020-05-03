@@ -9,22 +9,24 @@ package ru.yura.web.service;
 
 
 import org.springframework.stereotype.Service;
+import ru.yura.web.model.Role;
+import ru.yura.web.repositiry.RoleRepository;
 
 @Service
 public class RoleService {
-//     final RoleReposition roleReposition;
-//
-//    public RoleService(RoleReposition roleReposition) {
-//        this.roleReposition = roleReposition;
-//    }
-//
-//
-//    public void save(String role) {
-//        roleReposition.save(new Role().setRole(role));
-//    }
-//
-//    public Role findById(String name) {
-//        return roleReposition.findRoleByName(name);
-//    }
+     final RoleRepository roleRepository;
+
+    public RoleService(RoleRepository roleRepository) {
+        this.roleRepository = roleRepository;
+    }
+
+
+    public void save(Role role) {
+        roleRepository.save(role);
+    }
+
+    public Role findById(String role) {
+        return roleRepository.findByRole(role);
+    }
 
 }

@@ -13,5 +13,5 @@ import ru.yura.web.model.Role;
 
 public interface RoleRepository extends JpaRepository<Role, Long>
 {
-  Role findByRole(String name);
+  Role findByRole(String role);
 }
