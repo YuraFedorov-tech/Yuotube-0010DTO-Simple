@@ -34,7 +34,15 @@ public class TestDataInit {
         Person person1 = new Person().setEmail("2@2").setPassword("123");
         Person person2 = new Person().setEmail("3@3").setPassword("456");
 
+        List<String> roles = new ArrayList<>();
+        roles.add("ADMIN");
+        roles.add("PERSON");
+        personService.save(person2, roles);
 
+        roles.add("MODERATOR");
+        personService.save(person1, roles);
+
+        List<Person> personList=personService.findAll();
 
 
     }

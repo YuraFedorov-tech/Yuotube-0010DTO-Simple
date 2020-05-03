@@ -2,31 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a7a86df-cea5-4051-a30c-231bc9f51a6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/157/04fb22f4-0225-4248-a081-a7b5e1a3a3fb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/157/236cad47-1496-4ecd-a1f0-7b48175e22c2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/157/524f4868-b763-4ad1-96f4-3071b2191303.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/157/5c6d3fb3-898b-4785-85d8-f16ef02f91f3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/157/7cccc976-9dbb-46c3-8f4c-03331ba19669.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/157/7ff1326a-e1ee-44c0-aed4-614e455cbe6a.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/157/9ee8b613-bd51-4838-9b24-f0a90d88ab7e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/157/ae76ca01-9a2a-4ad0-9a7e-fc6c54ec2a1d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/157/b56aec73-02cf-4969-8e00-0097d1a6d73d.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/157/c8e8da00-cf8c-45eb-a7a3-5a780d9c6aed.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/157/ca74bcd9-ee4d-4997-8d47-8861d850b4bf.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/157/f9f769f6-6ac2-49e3-bc5a-d91cdc646c1e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/253/3f246ba0-2a88-4ad7-a079-ecbfb81e977e.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/253/768ce631-dfa0-400a-818b-88ffe2f847e6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/5/a0d2e273-0524-4f73-9d86-270012e5d0ef.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/5/e9a348a7-4552-4ec5-8efe-0a1ede324fed.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/5/f62ac639-b64c-4f7a-b6b9-cf43b05bfe41.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/6/1a55f841-9ede-4d60-a72b-90d7dfd9d4d9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/noimage/nofoto.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/t/123.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/yura/web/app/TestDataInit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yura/web/app/TestDataInit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/yura/web/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/yura/web/service/PersonService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,7 +253,8 @@
       <workItem from="1588509085891" duration="2841000" />
       <workItem from="1588532368049" duration="1017000" />
       <workItem from="1588534989051" duration="3650000" />
-      <workItem from="1588544292959" duration="229000" />
+      <workItem from="1588544292959" duration="526000" />
+      <workItem from="1588545195284" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="IsAlive and spouse">
       <created>1587018497920</created>
@@ -383,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587111627243</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ок">
+      <created>1588544689716</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1588544689716</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,7 +419,8 @@
     <MESSAGE value="1" />
     <MESSAGE value="2" />
     <MESSAGE value="Фото сохраняются в папку темп, путь сохраняется в классе Image" />
-    <option name="LAST_COMMIT_MESSAGE" value="Фото сохраняются в папку темп, путь сохраняется в классе Image" />
+    <MESSAGE value="ок" />
+    <option name="LAST_COMMIT_MESSAGE" value="ок" />
   </component>
   <component name="WindowStateProjectService">
     <state x="312" y="92" key="#Inspections" timestamp="1587974060112">
@@ -477,10 +463,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="450" y="181" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1440.860@0.0.1440.860" timestamp="1586771899982" />
-    <state x="238" y="29" key="CommitChangelistDialog2" timestamp="1587111626343">
+    <state x="238" y="29" key="CommitChangelistDialog2" timestamp="1588544687215">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="238" y="29" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1587111626343" />
+    <state x="238" y="29" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1588544687215" />
     <state width="409" height="466" key="DebuggerActiveHint" timestamp="1588248379521">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -489,38 +475,38 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="719" y="177" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1588532693146" />
-    <state width="1397" height="184" key="GridCell.Tab.0.bottom" timestamp="1588544653432">
+    <state width="1397" height="184" key="GridCell.Tab.0.bottom" timestamp="1588544823763">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="184" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588544653432" />
-    <state width="1397" height="184" key="GridCell.Tab.0.center" timestamp="1588544653432">
+    <state width="1397" height="184" key="GridCell.Tab.0.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588544823763" />
+    <state width="1397" height="184" key="GridCell.Tab.0.center" timestamp="1588544823763">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="184" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1588544653432" />
-    <state width="1397" height="184" key="GridCell.Tab.0.left" timestamp="1588544653432">
+    <state width="1397" height="184" key="GridCell.Tab.0.center/0.0.1440.860@0.0.1440.860" timestamp="1588544823763" />
+    <state width="1397" height="184" key="GridCell.Tab.0.left" timestamp="1588544823763">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="184" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1588544653432" />
-    <state width="1397" height="184" key="GridCell.Tab.0.right" timestamp="1588544653432">
+    <state width="1397" height="184" key="GridCell.Tab.0.left/0.0.1440.860@0.0.1440.860" timestamp="1588544823763" />
+    <state width="1397" height="184" key="GridCell.Tab.0.right" timestamp="1588544823763">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="184" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1588544653432" />
-    <state width="1397" height="184" key="GridCell.Tab.1.bottom" timestamp="1588544653432">
+    <state width="1397" height="184" key="GridCell.Tab.0.right/0.0.1440.860@0.0.1440.860" timestamp="1588544823763" />
+    <state width="1397" height="184" key="GridCell.Tab.1.bottom" timestamp="1588544823764">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="184" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588544653432" />
-    <state width="1397" height="184" key="GridCell.Tab.1.center" timestamp="1588544653432">
+    <state width="1397" height="184" key="GridCell.Tab.1.bottom/0.0.1440.860@0.0.1440.860" timestamp="1588544823764" />
+    <state width="1397" height="184" key="GridCell.Tab.1.center" timestamp="1588544823763">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="184" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1588544653432" />
-    <state width="1397" height="184" key="GridCell.Tab.1.left" timestamp="1588544653432">
+    <state width="1397" height="184" key="GridCell.Tab.1.center/0.0.1440.860@0.0.1440.860" timestamp="1588544823763" />
+    <state width="1397" height="184" key="GridCell.Tab.1.left" timestamp="1588544823763">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="184" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1588544653432" />
-    <state width="1397" height="184" key="GridCell.Tab.1.right" timestamp="1588544653432">
+    <state width="1397" height="184" key="GridCell.Tab.1.left/0.0.1440.860@0.0.1440.860" timestamp="1588544823763" />
+    <state width="1397" height="184" key="GridCell.Tab.1.right" timestamp="1588544823764">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="184" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1588544653432" />
+    <state width="1397" height="184" key="GridCell.Tab.1.right/0.0.1440.860@0.0.1440.860" timestamp="1588544823764" />
     <state width="1397" height="378" key="GridCell.Tab.2.bottom" timestamp="1588512790035">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -541,10 +527,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="223" y="17" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1588535107456" />
-    <state x="312" y="167" key="Vcs.Push.Dialog.v2" timestamp="1587111645778">
+    <state x="312" y="167" key="Vcs.Push.Dialog.v2" timestamp="1588544719111">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="167" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1587111645778" />
+    <state x="312" y="167" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1588544719111" />
     <state width="728" height="438" key="XDebugger.FullValuePopup" timestamp="1588259307003">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -591,7 +577,7 @@
       <breakpoints>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ru/yura/web/service/PersonService.java</url>
-          <line>57</line>
+          <line>52</line>
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
