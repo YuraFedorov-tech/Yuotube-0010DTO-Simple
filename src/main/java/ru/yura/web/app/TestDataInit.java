@@ -8,6 +8,7 @@ package ru.yura.web.app;
  */
 
 import org.springframework.beans.factory.annotation.Autowired;
+import ru.yura.web.dto.PersonDto;
 import ru.yura.web.model.Person;
 import ru.yura.web.model.Role;
 import ru.yura.web.service.PersonService;
@@ -42,8 +43,9 @@ public class TestDataInit {
         roles.add("MODERATOR");
         personService.save(person1, roles);
 
-        List<Person> personList=personService.findAll();
+        List<Person> personList = personService.findAll();
 
+        List<PersonDto> personDtoList = personService.findALLDto();
 
     }
 }
